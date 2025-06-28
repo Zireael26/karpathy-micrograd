@@ -6,8 +6,6 @@ and its gradient in a computational graph.
 """
 
 import math
-from typing import Union, Set, List, Callable, Optional
-
 
 class Value:
     """

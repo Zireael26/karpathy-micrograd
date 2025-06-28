@@ -11,7 +11,7 @@ from typing import List, Set
 from .engine import Value
 
 
-def visualize_graph(root: Value, format: str = 'png', filename: str = None):
+def visualize_graph(root: Value, format: str = 'png', filename: str = ''):
     """
     Visualize the computational graph using matplotlib.
     
