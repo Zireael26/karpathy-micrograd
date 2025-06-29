@@ -4,3 +4,4 @@ jupyter>=1.1.1
 notebook>=7.4.3
 pytest>=8.4.1
 graphviz>=0.21
+torch>=2.7.1
