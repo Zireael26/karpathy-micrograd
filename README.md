@@ -2,6 +2,12 @@
 
 A minimal implementation of a neural network library inspired by [Andrej Karpathy's micrograd](https://github.com/karpathy/micrograd). This project implements automatic differentiation (backpropagation) and neural networks from scratch in Python.
 
+## iPython Notebook
+This project includes an iPython notebook for interactive development and exploration. You can run the notebook to experiment with the micrograd engine, visualize computational graphs, and test various neural network architectures.
+You can find the notebook in the `notebooks/` directory. It serves as a playground for understanding how the micrograd engine works, testing different operations, and visualizing the computational graphs.
+
+It is based on the original [micrograd tutorial by Andrej Karpathy](https://youtu.be/VMj-3S1tku0), which provides a step-by-step guide to building a simple autograd engine and neural network from scratch.
+
 ## 🎯 Project Overview
 
 Micrograd is a tiny Autograd engine that implements backpropagation over a dynamically built DAG (Directed Acyclic Graph). It's designed to be educational and help understand the internals of neural networks.
@@ -17,7 +23,7 @@ Micrograd is a tiny Autograd engine that implements backpropagation over a dynam
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.7+
+- Python 3.10+
 - Virtual environment (recommended)
 
 ### Installation
